@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+  }
+  body, h1, h2 {
+    font-family: "Inconsolata", sans-serif; 
+    letter-spacing: 1px;
+}
+h1 {
+    color: rgb(21, 21, 22);
+    font-size: 180%;
+    text-align: center;
+}
+  body {
+    margin: 0;
+  }
+  
+  /* header */
+  .header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* hover */
+  .topnav a:hover {
+    background-color:orange;
+    color: black;
+  }
+  
+  /* three columns*/
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 25%;
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 50%;
+  }
+  
+  /* Clear floats */
+  .row {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* different disply */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+  
+  .footer {
+    background-color:rgb(149, 155, 155);
+    padding: 10px;
+    text-align: center;
+  }
+  .form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+form {
+    margin: 50px auto;
+    width: 90%;
+}
+.form-item label {
+    flex-basis: 100px;
+    font-size: 14px;
+}
+.form-item button {
+    width: 100px;
+    align-items: center;
+    padding: 5px;
+}
+.form-item button {
+    background-color:burlywood;
+    padding: 5px;
+    font-size: 18px;
+    margin: 10%;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  input hover {
+    background-color: #45a049;
+  }
+  input[type=submit] {
+    background-color: orange;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+   /* Linked  */
+   .lnk div:a {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+     /* Table  */
+  border: 1px solid #ddd
+  th, td {
+      text-align: :left;
+      padding: 16px;
+  }
+  tr:nth-child(even) {
+      background-color:rgb(197, 196, 196);
+      font-size: medium;
+    }
